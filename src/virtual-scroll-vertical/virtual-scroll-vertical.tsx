@@ -47,10 +47,16 @@ export function VirtualScrollVertical() {
       }}
       onScroll={handleScroll}
     >
-      <div style={{ height: rows.length * rowHeight }}>
+      <div
+        style={{
+          // 全行の高さ
+          height: rows.length * rowHeight,
+        }}
+      >
         <div
           style={{
             position: "relative",
+            // 表示されている行群の位置を調整
             top: displayItemTopIndex * rowHeight,
           }}
         >
