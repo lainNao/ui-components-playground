@@ -6,3 +6,5 @@
 ## src/
 
 - `sticky-left-top` : 上と左が固定された表のサンプルコード
+- `sticky-left-top-right` : 上と左と右が固定された表のサンプルコード
+- `sticky-left-top-right-bottom` : 上と左と右と下が固定された表のサンプルコード
