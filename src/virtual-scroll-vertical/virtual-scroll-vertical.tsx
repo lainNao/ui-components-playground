@@ -2,20 +2,20 @@ import { useState } from "react";
 
 const rows = Array.from({ length: 10000 }, (_, i) => `タスク${i + 1}`);
 const containerHeight = 400;
-const itemHeight = 30;
+const rowHeight = 30;
 
 function getDisplayedItems({
   rows,
   topIndex,
   containerHeight,
-  itemHeight,
+  rowHeight,
 }: {
   rows: string[];
   topIndex: number;
   containerHeight: number;
-  itemHeight: number;
+  rowHeight: number;
 }) {
-  const itemsPerPage = Math.ceil(containerHeight / itemHeight);
+  const itemsPerPage = Math.ceil(containerHeight / rowHeight);
   return rows.slice(topIndex, topIndex + itemsPerPage);
 }
 
@@ -26,12 +26,12 @@ export function VirtualScrollVertical() {
     rows,
     topIndex: displayItemTopIndex,
     containerHeight,
-    itemHeight,
+    rowHeight,
   });
 
   const handleScroll = (e: React.UIEvent<HTMLDivElement>) => {
     const scrollTop = e.currentTarget.scrollTop;
-    const newTopIndex = Math.floor(scrollTop / itemHeight);
+    const newTopIndex = Math.floor(scrollTop / rowHeight);
     if (newTopIndex === displayItemTopIndex) {
       return;
     }
@@ -47,17 +47,17 @@ export function VirtualScrollVertical() {
       }}
       onScroll={handleScroll}
     >
-      <div style={{ height: rows.length * itemHeight }}>
+      <div style={{ height: rows.length * rowHeight }}>
         <div
           style={{
             position: "relative",
-            top: displayItemTopIndex * itemHeight,
+            top: displayItemTopIndex * rowHeight,
           }}
         >
           {displayedItems.map((row) => (
             <div
               key={row}
-              style={{ height: itemHeight, borderBottom: "1px solid #eee" }}
+              style={{ height: rowHeight, borderBottom: "1px solid #eee" }}
             >
               {row}
             </div>
