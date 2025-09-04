@@ -37,7 +37,7 @@ export function StickyLeftTopByTable() {
               項目
             </th>
             {/* 上部ヘッダーセル */}
-            {columns.map((col, index) => (
+            {columns.map((col) => (
               <th
                 key={col}
                 style={{
