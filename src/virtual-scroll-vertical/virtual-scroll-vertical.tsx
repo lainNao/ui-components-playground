@@ -32,6 +32,9 @@ export function VirtualScrollVertical() {
   const handleScroll = (e: React.UIEvent<HTMLDivElement>) => {
     const scrollTop = e.currentTarget.scrollTop;
     const newTopIndex = Math.floor(scrollTop / itemHeight);
+    if (newTopIndex === displayItemTopIndex) {
+      return;
+    }
     setDisplayItemTopIndex(newTopIndex);
   };
 
