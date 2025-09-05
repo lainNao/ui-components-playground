@@ -16,7 +16,7 @@
 
 ## アニメーション
 
-- [animation-scroll-jack](https://github.com/lainNao/ui-components-playground/tree/main/src/animation-scroll-jack) : 縦スクロールしてる途中に、突然スクロールジャックして縦以外のスクロールやアニメーションが始まるやつのサンプルコード
+- [animation-scroll-jack](https://github.com/lainNao/ui-components-playground/tree/main/src/animation-scroll-jack) : 縦スクロールしてる途中で突然スクロールジャックされ、縦以外のスクロールやアニメーションが始まるやつのサンプルコード
 
 ## TODO
 
