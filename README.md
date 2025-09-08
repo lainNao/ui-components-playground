@@ -20,6 +20,10 @@
 
 - [animation-scroll-jack](https://github.com/lainNao/ui-components-playground/tree/main/src/animation-scroll-jack) : 縦スクロールしてる途中で突然スクロールジャックされ、縦以外のスクロールやアニメーションが始まるやつ
 
+### ノード
+
+- [connecting-line-svg](https://github.com/lainNao/ui-components-playground/tree/main/src/connecting-line-svg) : SVG で要素同士を線で結ぶ
+
 ### TODO
 
 - **primitive : プリミティブ**
@@ -34,7 +38,6 @@
   - animation-chart-div : div でアニメーションするチャート
   - animation-chart-canvas : canvas でアニメーションするチャート
   - animation-svg-smil : SVG の SMIL でアニメーション
-  - connecting-line-svg : SVG で要素同士を線で結ぶ
   - connecting-line-div : div で要素同士を線で結ぶ
   - web-components : Web Components
   - editor-rich-text : リッチテキストエディター
