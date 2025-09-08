@@ -33,6 +33,7 @@
   - animation-page-transition : ページ遷移時にモーフィングする
   - animation-chart-div : div でアニメーションするチャート
   - animation-chart-canvas : canvas でアニメーションするチャート
+  - animation-svg-smil : SVG の SMIL でアニメーション
   - connecting-line-svg : SVG で要素同士を線で結ぶ
   - connecting-line-div : div で要素同士を線で結ぶ
   - web-components : Web Components
