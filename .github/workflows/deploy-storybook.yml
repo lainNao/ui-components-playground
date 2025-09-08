@@ -1,0 +1,25 @@
+name: Build and Publish Storybook to GitHub Pages
+ 
+on:
+  push:
+    branches:
+      - main
+ 
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+ 
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+      - uses: bitovi/github-actions-storybook-to-github-pages@v1.0.3
+        with:
+          path: dist/storybook
