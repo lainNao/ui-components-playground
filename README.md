@@ -28,7 +28,6 @@
 
 - **primitive : プリミティブ**
   - virtual-scroll-vertical-horizontal : 縦横両方向の仮想スクロール
-  - epub-reader : epub リーダー
   - parallax-scroll : パララックススクロール
   - dnd-list-reorder : ドラッグアンドドロップでリストの並び替え
   - animation-page-transition : ページ遷移時にモーフィングする
@@ -47,6 +46,7 @@
   - viewer-video : 動画ビューワー
   - viewer-audio : 音声ビューワー
   - viewer-midi : MIDI ビューワー
+  - viewer-epub : EPUB ビューワー
 - **combination : 組み合わせ**
   - editor-video : 動画エディター
   - editor-audio : 音声エディター
