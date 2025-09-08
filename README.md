@@ -20,7 +20,7 @@
 
 - [animation-scroll-jack](https://github.com/lainNao/ui-components-playground/tree/main/src/animation-scroll-jack) : 縦スクロールしてる途中で突然スクロールジャックされ、縦以外のスクロールやアニメーションが始まるやつ
 
-### ノード
+### ノード接続線
 
 - [connecting-line-svg](https://github.com/lainNao/ui-components-playground/tree/main/src/connecting-line-svg) : SVG で要素同士を線で結ぶ
 
@@ -28,17 +28,13 @@
 
 - **primitive : プリミティブ**
   - virtual-scroll-vertical-horizontal : 縦横両方向の仮想スクロール
-  - combined-virtual-scroll-and-sticky : 仮想スクロール（縦横すべて）と sticky ヘッダー（左、上）の組み合わせ
   - epub-reader : epub リーダー
   - parallax-scroll : パララックススクロール
   - dnd-list-reorder : ドラッグアンドドロップでリストの並び替え
-  - map-google: 地図（Google Map の超簡易版）
-  - map-mind : マインドマップ
   - animation-page-transition : ページ遷移時にモーフィングする
   - animation-chart-div : div でアニメーションするチャート
   - animation-chart-canvas : canvas でアニメーションするチャート
   - animation-svg-smil : SVG の SMIL でアニメーション
-  - connecting-line-div : div で要素同士を線で結ぶ
   - web-components : Web Components
   - editor-rich-text : リッチテキストエディター
   - calendar : カレンダー
@@ -57,3 +53,6 @@
   - editor-midi : MIDI エディター
   - editor-image : 画像エディター
   - editor-pdf : PDF エディター
+  - map-google: 地図（Google Map の超簡易版）
+  - map-mind : マインドマップ
+  - combined-virtual-scroll-and-sticky : 仮想スクロール（縦横すべて）と sticky ヘッダー（左、上）の組み合わせ
