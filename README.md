@@ -1,7 +1,7 @@
 # ui-components-playground
 
 - UI コンポーネントの試し実装などを行うリポジトリ
-- `npm run storybook` で Storybook が立ち上がります
+- <https://lainnao.github.io/ui-components-playground/> にアクセスするか、または`npm run storybook` を実行していただくかのいずれかで Storybook が立ち上がります
 
 ## サンプルコード一覧
 
