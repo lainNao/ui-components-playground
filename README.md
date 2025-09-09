@@ -28,7 +28,6 @@
 ### TODO
 
 - **primitive : プリミティブ**
-  - virtual-scroll-vertical-horizontal : 縦横両方向の仮想スクロール
   - parallax-scroll : パララックススクロール
   - dnd-list-reorder : ドラッグアンドドロップでリストの並び替え
   - animation-page-transition : ページ遷移時にモーフィングする
