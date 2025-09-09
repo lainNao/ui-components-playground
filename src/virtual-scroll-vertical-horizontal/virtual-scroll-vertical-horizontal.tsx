@@ -3,12 +3,6 @@ import { useState } from "react";
 const fixedSizeCells = Array.from({ length: 1000 }, (_, i) =>
   Array.from({ length: 1000 }, (_, j) => `${i + 1}-${j + 1}`)
 );
-
-const containerHeight = 400;
-const rowHeight = 30;
-const containerWidth = 800;
-const columnWidth = 100;
-
 function getDisplayedItems({
   cells,
   topIndex,
@@ -42,6 +36,11 @@ export function VirtualScrollVerticalHorizontal() {
     left: 0,
   });
 
+  const containerHeight = 400;
+  const rowHeight = 30;
+  const containerWidth = 800;
+  const columnWidth = 100;
+
   const rows = getDisplayedItems({
     cells: fixedSizeCells,
     topIndex: displayItemTopLeftIndex.top,
@@ -51,8 +50,6 @@ export function VirtualScrollVerticalHorizontal() {
     containerWidth,
     columnWidth,
   });
-
-  console.log(111, rows);
 
   const handleScroll = (e: React.UIEvent<HTMLDivElement>) => {
     const newTopIndex = Math.floor(e.currentTarget.scrollTop / rowHeight);
@@ -79,6 +76,7 @@ export function VirtualScrollVerticalHorizontal() {
     >
       <div
         style={{
+          position: "relative",
           // 全行の高さ
           height: fixedSizeCells.length * rowHeight,
           // 全列の幅
@@ -87,7 +85,7 @@ export function VirtualScrollVerticalHorizontal() {
       >
         <div
           style={{
-            position: "relative",
+            position: "absolute",
             // 表示されている行群の位置を調整
             top: displayItemTopLeftIndex.top * rowHeight,
             left: displayItemTopLeftIndex.left * columnWidth,
