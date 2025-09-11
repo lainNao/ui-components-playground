@@ -17,15 +17,19 @@
 - [virtual-scroll-random-item-height](https://github.com/lainNao/ui-components-playground/tree/main/src/virtual-scroll-vertical-random-item-height) : 行の高さが不定な縦方向の仮想スクロール
 - [virtual-scroll-vertical-horizontal](https://github.com/lainNao/ui-components-playground/tree/main/src/virtual-scroll-vertical-horizontal) : 縦横両方向の仮想スクロール
 
-### スクロールアニメーション
+### 仮想スクロール＋ Sticky ヘッダー
 
-- [animation-scroll-jack](https://github.com/lainNao/ui-components-playground/tree/main/src/animation-scroll-jack) : 縦スクロールしてる途中で突然スクロールジャックされ、縦以外のスクロールやアニメーションが始まるやつ
+- [virtual-scroll-vertical-horizontal-with-sticky-headers](https://github.com/lainNao/ui-components-playground/tree/main/src/virtual-scroll-vertical-horizontal-with-sticky-headers) : 上と左に Sticky ヘッダーがある、縦横両方向（なおかつヘッダー部分、データ部分いずれも）の仮想スクロールをした表
 
 ### ノード接続線
 
 - [connecting-line-svg](https://github.com/lainNao/ui-components-playground/tree/main/src/connecting-line-svg) : SVG で要素同士を線で結ぶ
 
-### TODO
+### スクロールアニメーション
+
+- [animation-scroll-jack](https://github.com/lainNao/ui-components-playground/tree/main/src/animation-scroll-jack) : 縦スクロールしてる途中で突然スクロールジャックされ、縦以外のスクロールやアニメーションが始まるやつ
+
+## TODO
 
 - **primitive : プリミティブ**
   - parallax-scroll : パララックススクロール
@@ -58,4 +62,3 @@
   - spreadsheet : スプレッドシート（canvas 版、div 版）
   - map-google: 地図（Google Map の超簡易版）
   - map-mind : マインドマップ
-  - combined-virtual-scroll-and-sticky : 仮想スクロール（縦横すべて）と sticky ヘッダー（左、上）の組み合わせ
