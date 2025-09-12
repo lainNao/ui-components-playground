@@ -1,6 +1,6 @@
 # ui-components-playground
 
-- UI コンポーネントの少し面倒な要件の試し実装などを行うリポジトリ
+- Web フロントエンドの実装で少し面倒なやつを腕試しや学習として実装してみるリポジトリ
 - <https://lainnao.github.io/ui-components-playground/> にアクセスするか、または`npm run storybook` を実行していただくかのいずれかで Storybook が立ち上がります
 
 ## 一覧
