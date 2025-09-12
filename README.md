@@ -53,6 +53,7 @@
   - viewer-epub : EPUB ビューワー
   - panel-resizable : リサイズ可能なパネル
   - panel-movable : VSCode のように移動可能なパネル
+  - realtime collaborative editing : 複数人でリアルタイム同時編集
 - **combination : 組み合わせ**
   - editor-video : 動画エディター
   - editor-audio : 音声エディター
