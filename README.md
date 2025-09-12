@@ -1,6 +1,6 @@
 # ui-components-playground
 
-- Web フロントエンドの実装で少し面倒なやつを腕試しや学習として実装してみるリポジトリ
+- Web フロントエンドの実装で少し面倒なやつを、腕試しや学習として React 以外のライブラリを使わないで実装してみるリポジトリ。※比較のためにライブラリを使っているサンプルもあり。
 - <https://lainnao.github.io/ui-components-playground/> にアクセスするか、または`npm run storybook` を実行していただくかのいずれかで Storybook が立ち上がります
 
 ## 一覧
