@@ -19,7 +19,7 @@
 
 ### 仮想スクロール＋ Sticky ヘッダー
 
-- [virtual-scroll-vertical-horizontal-with-sticky-headers](https://github.com/lainNao/ui-components-playground/tree/main/src/virtual-scroll-vertical-horizontal-with-sticky-headers) : 上と左に Sticky ヘッダーがある、縦横両方向（なおかつヘッダー部分、データ部分いずれも）の仮想スクロールをした表
+- [virtual-scroll-vertical-horizontal-with-sticky-headers](https://github.com/lainNao/ui-components-playground/tree/main/src/virtual-scroll-vertical-horizontal-with-sticky-headers) : 上と左に Sticky ヘッダーがある、縦横の仮想スクロールをした表
 
 ### ノード接続線
 
@@ -32,6 +32,7 @@
 ## TODO
 
 - **primitive : プリミティブ**
+  - canvas-table : Canvas で描画する表
   - parallax-scroll : パララックススクロール
   - dnd-list-reorder : ドラッグアンドドロップでリストの並び替え
   - animation-page-transition : ページ遷移時にモーフィングする

@@ -30,3 +30,18 @@ export function generateSampleCellValues(
     }))
   );
 }
+
+/**
+ * サンプルのセル値を生成（Canvasのサンプル用）
+ */
+export function generateSampleCellValues_forCanvas(
+  rows: number,
+  cols: number
+): string[][] {
+  return Array.from({ length: rows }, (_, i) =>
+    Array.from(
+      { length: cols },
+      (_, j) => `${getExcelLikeColumnName(j)}${i + 1}`
+    )
+  );
+}
