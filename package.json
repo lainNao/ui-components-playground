@@ -10,7 +10,8 @@
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build --output-dir dist/storybook",
-    "deploy-storybook": "storybook build"
+    "deploy-storybook": "storybook build",
+    "_open-repo": "open https://github.com/lainNao/ui-components-playground"
   },
   "dependencies": {
     "react": "^19.1.1",

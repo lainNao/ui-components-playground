@@ -32,7 +32,6 @@
 ## TODO
 
 - **primitive : プリミティブ**
-  - canvas-table : Canvas で描画する表
   - parallax-scroll : パララックススクロール
   - dnd-list-reorder : ドラッグアンドドロップでリストの並び替え
   - animation-page-transition : ページ遷移時にモーフィングする
