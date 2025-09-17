@@ -23,6 +23,17 @@ jobs:
       - uses: actions/setup-node@v5
         with:
           node-version: 22
+
+      - name: Clean install with optional deps
+        run: |
+          rm -rf node_modules package-lock.json
+          npm install --include=optional
       - uses: bitovi/github-actions-storybook-to-github-pages@v1.0.3
         with:
           path: dist/storybook
+          # こちらのエラーを避けるためのワークアラウンド 
+          # ref: https://github.com/npm/cli/issues/4828
+          # ref: https://github.com/lainNao/ui-components-playground/actions/runs/17804768767/job/50613690514
+          install_command: |
+            rm -rf node_modules package-lock.json
+            npm install --include=optional
