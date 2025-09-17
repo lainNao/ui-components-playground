@@ -29,9 +29,14 @@
 
 - [animation-scroll-jack](https://github.com/lainNao/ui-components-playground/tree/main/src/animation-scroll-jack) : 縦スクロールしてる途中で突然スクロールジャックされ、縦以外のスクロールやアニメーションが始まるやつ
 
+### リアルタイム同期
+
+- [realtime-sync-todo](https://github.com/lainNao/ui-components-playground/tree/main/src/realtime-sync-todo) : リアルタイムに同期する TODO リストのサンプル
+
 ## TODO
 
 - **primitive : プリミティブ**
+  - carousel : カルーセル
   - parallax-scroll : パララックススクロール
   - dnd-list-reorder : ドラッグアンドドロップでリストの並び替え
   - animation-page-transition : ページ遷移時にモーフィングする
@@ -53,7 +58,6 @@
   - viewer-epub : EPUB ビューワー
   - panel-resizable : リサイズ可能なパネル
   - panel-movable : VSCode のように移動可能なパネル
-  - realtime collaborative editing : 複数人でリアルタイム同時編集
 - **combination : 組み合わせ**
   - editor-video : 動画エディター
   - editor-audio : 音声エディター
@@ -63,3 +67,4 @@
   - spreadsheet : スプレッドシート（canvas 版、div 版）
   - map-google: 地図（Google Map の超簡易版）
   - map-mind : マインドマップ
+  - realtime-sync-gantt : 複数人でリアルタイム同時編集できるガントチャート

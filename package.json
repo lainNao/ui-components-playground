@@ -11,9 +11,12 @@
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build --output-dir dist/storybook",
     "deploy-storybook": "storybook build",
-    "_open-repo": "open https://github.com/lainNao/ui-components-playground"
+    "open-github": "open https://github.com/lainNao/ui-components-playground",
+    "firebase:run": "firebase emulators:start",
+    "firebase:stop": "kill-port 4000 4400 4500 8080 8085"
   },
   "dependencies": {
+    "firebase": "^12.2.1",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
     "react-xarrows": "^2.0.2"
@@ -31,6 +34,7 @@
     "@vitest/browser": "^3.2.4",
     "@vitest/coverage-v8": "^3.2.4",
     "globals": "^16.3.0",
+    "kill-port": "^2.0.1",
     "playwright": "^1.55.0",
     "storybook": "^9.1.4",
     "typescript": "~5.8.3",
