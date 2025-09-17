@@ -29,10 +29,10 @@
 
 - [animation-scroll-jack](https://github.com/lainNao/ui-components-playground/tree/main/src/animation-scroll-jack) : 縦スクロールしてる途中で突然スクロールジャックされ、縦以外のスクロールやアニメーションが始まるやつ
 
-### リアルタイム同期
+### 複数人による同時編集
 
-- [realtime-sync-todo](https://github.com/lainNao/ui-components-playground/tree/main/src/realtime-sync-todo) : リアルタイムに同期する TODO リスト
-- [realtime-sync-todo-with-presence](https://github.com/lainNao/ui-components-playground/tree/main/src/realtime-sync-todo-with-presence) : プレゼンス機能付きのリアルタイム TODO リスト
+- [realtime-sync-todo](https://github.com/lainNao/ui-components-playground/tree/main/src/realtime-sync-todo) : 複数人による同時編集機能ありの TODO リスト
+- [realtime-sync-todo-with-presence](https://github.com/lainNao/ui-components-playground/tree/main/src/realtime-sync-todo-with-presence) : プレゼンス機能付き、複数人による同時編集機能ありの TODO リスト
 
 ## TODO
 
