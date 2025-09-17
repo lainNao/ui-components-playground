@@ -31,8 +31,8 @@
 
 ### リアルタイム同期
 
-- [realtime-sync-todo](https://github.com/lainNao/ui-components-playground/tree/main/src/realtime-sync-todo) : リアルタイムに同期する TODO リストのサンプル
-- [realtime-sync-todo-with-presence](https://github.com/lainNao/ui-components-playground/tree/main/src/realtime-sync-todo-with-presence) : プレゼンス機能付きのリアルタイム TODO リストのサンプル
+- [realtime-sync-todo](https://github.com/lainNao/ui-components-playground/tree/main/src/realtime-sync-todo) : リアルタイムに同期する TODO リスト
+- [realtime-sync-todo-with-presence](https://github.com/lainNao/ui-components-playground/tree/main/src/realtime-sync-todo-with-presence) : プレゼンス機能付きのリアルタイム TODO リスト
 
 ## TODO
 
