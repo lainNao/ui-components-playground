@@ -43,6 +43,10 @@
 - [realtime-sync-todo](https://github.com/lainNao/ui-components-playground/tree/main/src/realtime-sync-todo) : 複数人による同時編集機能ありの TODO リスト
 - [realtime-sync-todo-with-presence](https://github.com/lainNao/ui-components-playground/tree/main/src/realtime-sync-todo-with-presence) : プレゼンス機能付き、複数人による同時編集機能ありの TODO リスト
 
+### 音楽
+
+- [piano-roll](https://github.com/lainNao/ui-components-playground/tree/main/src/piano-roll) : マウスや MIDI デバイスで音を鳴らせるピアノロール
+
 ## TODO
 
 - **primitive : プリミティブ**
