@@ -29,6 +29,10 @@
 
 - [animation-scroll-jack](https://github.com/lainNao/ui-components-playground/tree/main/src/animation-scroll-jack) : 縦スクロールしてる途中で突然スクロールジャックされ、縦以外のスクロールやアニメーションが始まるやつ
 
+### SVG アニメーション
+
+- [animation-svg](https://github.com/lainNao/ui-components-playground/tree/main/src/animation-svg) : SVG アニメーション
+
 ### 複数人による同時編集
 
 - [realtime-sync-todo](https://github.com/lainNao/ui-components-playground/tree/main/src/realtime-sync-todo) : 複数人による同時編集機能ありの TODO リスト
@@ -43,6 +47,7 @@
   - animation-page-transition : ページ遷移時にモーフィングする
   - animation-chart-div : div でアニメーションするチャート
   - animation-chart-canvas : canvas でアニメーションするチャート
+  - animation-chart-svg : SVG でアニメーションするチャート
   - animation-svg-smil : SVG の SMIL でアニメーション
   - web-components : Web Components
   - editor-rich-text : リッチテキストエディター
