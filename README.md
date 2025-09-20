@@ -16,6 +16,7 @@
 - [virtual-scroll-vertical](https://github.com/lainNao/ui-components-playground/tree/main/src/virtual-scroll-vertical) : 縦方向の仮想スクロール
 - [virtual-scroll-random-item-height](https://github.com/lainNao/ui-components-playground/tree/main/src/virtual-scroll-vertical-random-item-height) : 行の高さが不定な縦方向の仮想スクロール
 - [virtual-scroll-vertical-horizontal](https://github.com/lainNao/ui-components-playground/tree/main/src/virtual-scroll-vertical-horizontal) : 縦横両方向の仮想スクロール
+- [virtual-scroll-vertical-horizontal-with-sticky-headers](https://github.com/lainNao/ui-components-playground/tree/main/src/virtual-scroll-vertical-horizontal-with-sticky-headers) : 上と左に Sticky ヘッダーがある、縦横の仮想スクロールをした表
 
 > [!NOTE]
 >
@@ -23,10 +24,6 @@
 >   - そのため、もし全文検索をしたい場合、別途検索窓を用意することになる
 > - 全部レンダリングしないので、大量行選択からの cmd(ctrl) + c のコピーをしてもレンダリングしている範囲しかコピーしてくれない。
 >   - そのため、もし同じ UX でコピーを成功させたい場合、コピー開始位置を状態管理することになりそう
-
-### 仮想スクロール＋ Sticky ヘッダー
-
-- [virtual-scroll-vertical-horizontal-with-sticky-headers](https://github.com/lainNao/ui-components-playground/tree/main/src/virtual-scroll-vertical-horizontal-with-sticky-headers) : 上と左に Sticky ヘッダーがある、縦横の仮想スクロールをした表
 
 ### ノード接続線
 
