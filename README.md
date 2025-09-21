@@ -45,7 +45,7 @@
 
 ### 音楽
 
-- [piano-roll](https://github.com/lainNao/ui-components-playground/tree/main/src/piano-roll) : マウスや MIDI デバイスで音を鳴らせるピアノロール
+- [keyboard](https://github.com/lainNao/ui-components-playground/tree/main/src/keyboard) : マウスや MIDI デバイスで音を鳴らせる鍵盤
 
 ## TODO
 

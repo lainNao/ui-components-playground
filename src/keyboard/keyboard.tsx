@@ -15,7 +15,7 @@ import {
   getKeyFromPosition,
 } from "./utils";
 
-export function PianoRoll() {
+export function Keyboard() {
   const canvasRef = useRef<HTMLCanvasElement | null>(null);
   const audioPlayerRef = useRef<AudioPlayer | null>(null);
   const midiInputManagerRef = useRef<MidiInputManager | null>(null);
