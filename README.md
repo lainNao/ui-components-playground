@@ -63,7 +63,6 @@
   - animation-chart-svg : SVG でアニメーションするチャート
   - animation-svg-smil : SVG の SMIL でアニメーション
   - web-components : Web Components
-  - editor-rich-text : リッチテキストエディター
   - calendar : カレンダー
   - date-time-picker : 日付時刻ピッカー
   - viewer-pdf : PDF ビューワー
@@ -78,6 +77,7 @@
   - panel-resizable : リサイズ可能なパネル
   - panel-movable : VSCode のように移動可能なパネル
 - **combination : 組み合わせ**
+  - editor-rich-text : リッチテキストエディター
   - editor-video : 動画エディター
   - editor-audio : 音声エディター
   - editor-midi : MIDI エディター
