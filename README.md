@@ -30,6 +30,10 @@
 
 - [connecting-line-svg](https://github.com/lainNao/ui-components-playground/tree/main/src/connecting-line-svg) : SVG で要素同士を線で結ぶ
 
+### ドラッグで並べ替え
+
+- [dnd-list-reorder](https://github.com/lainNao/ui-components-playground/tree/main/src/dnd-list-reorder) : D&D でリストを並べ替える
+
 ### スクロールアニメーション
 
 - [animation-scroll-jack](https://github.com/lainNao/ui-components-playground/tree/main/src/animation-scroll-jack) : 縦スクロールしてる途中で突然スクロールジャックされ、縦以外のスクロールやアニメーションが始まるやつ
@@ -47,16 +51,11 @@
 
 - [keyboard](https://github.com/lainNao/ui-components-playground/tree/main/src/keyboard) : マウスや MIDI デバイスで音を鳴らせる鍵盤
 
-### ドラッグで並べ替え
-
-- [dnd-list-reorder](https://github.com/lainNao/ui-components-playground/tree/main/src/dnd-list-reorder) : D&D でリストを並べ替える
-
 ## TODO
 
 - **primitive : プリミティブ**
   - carousel : カルーセル
   - parallax-scroll : パララックススクロール
-  - dnd-list-reorder : ドラッグアンドドロップでリストの並び替え
   - animation-page-transition : ページ遷移時にモーフィングする
   - animation-chart-div : div でアニメーションするチャート
   - animation-chart-canvas : canvas でアニメーションするチャート
