@@ -33,6 +33,7 @@
 ### ドラッグで並べ替え
 
 - [dnd-list-reorder](https://github.com/lainNao/ui-components-playground/tree/main/src/dnd-list-reorder) : D&D でリストを並べ替える
+- [dnd-list-reorder-flip-animation](https://github.com/lainNao/ui-components-playground/tree/main/src/dnd-list-reorder-flip-animation) : FLIP アニメーションつきで、D&D でリストを並べ替える
 
 ### スクロールアニメーション
 
