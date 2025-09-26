@@ -48,6 +48,10 @@
 - [realtime-sync-todo](https://github.com/lainNao/ui-components-playground/tree/main/src/realtime-sync-todo) : 複数人による同時編集機能ありの TODO リスト
 - [realtime-sync-todo-with-presence](https://github.com/lainNao/ui-components-playground/tree/main/src/realtime-sync-todo-with-presence) : プレゼンス機能付き、複数人による同時編集機能ありの TODO リスト
 
+### パネルのリサイズ
+
+- [panel-resizable](https://github.com/lainNao/ui-components-playground/tree/main/src/panel-resizable) : ドラッグでパネルをリサイズ
+
 ### 音楽
 
 - [keyboard](https://github.com/lainNao/ui-components-playground/tree/main/src/keyboard) : マウスや MIDI デバイスで音を鳴らせる鍵盤
@@ -74,7 +78,6 @@
   - viewer-audio : 音声ビューワー
   - viewer-midi : MIDI ビューワー
   - viewer-epub : EPUB ビューワー
-  - panel-resizable : リサイズ可能なパネル
   - panel-movable : VSCode のように移動可能なパネル
 - **combination : 組み合わせ**
   - editor-rich-text : リッチテキストエディター

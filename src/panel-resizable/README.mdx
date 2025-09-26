@@ -1,0 +1,7 @@
+# panel-resizable
+
+- 単にマウスダウンを拾って、mousemove でwidthを書き換えるだけ
+  - 若干ホバー時にふわっと太くなるようにもするとそれっぽく見える
+- widthはuseStateでは管理せず、refでDOMを直接書き換える
+  - useStateで管理すると、mousemoveのたびに再レンダリングされてパフォーマンスが悪い
+  - 必要ならsessionStorageなどに保存してもいい
