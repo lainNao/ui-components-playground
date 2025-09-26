@@ -47,6 +47,10 @@
 
 - [keyboard](https://github.com/lainNao/ui-components-playground/tree/main/src/keyboard) : マウスや MIDI デバイスで音を鳴らせる鍵盤
 
+### ドラッグで並べ替え
+
+- [dnd-list-reorder](https://github.com/lainNao/ui-components-playground/tree/main/src/dnd-list-reorder) : D&D でリストを並べ替える
+
 ## TODO
 
 - **primitive : プリミティブ**
