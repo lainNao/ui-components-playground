@@ -58,6 +58,7 @@
 ### 手書き風
 
 - [handwriting-look-container](https://github.com/lainNao/ui-components-playground/tree/main/src/handwriting-look-container) : 手書き風の四角背景
+- [handwriting-look-asterisk](https://github.com/lainNao/ui-components-playground/tree/main/src/handwriting-look-asterisk) : 手書き風のアスタリスク
 
 ## TODO
 
