@@ -38,6 +38,10 @@
 
 - [animation-scroll-jack](https://github.com/lainNao/ui-components-playground/tree/main/src/animation-scroll-jack) : 縦スクロールしてる途中で突然スクロールジャックされ、縦以外のスクロールやアニメーションが始まるやつ
 
+### FLIP アニメーション
+
+- [flip-animation](https://github.com/lainNao/ui-components-playground/tree/main/src/flip-animation) : FLIP アニメーション
+
 ### SVG アニメーション
 
 - [animation-svg](https://github.com/lainNao/ui-components-playground/tree/main/src/animation-svg) : SVG アニメーション
