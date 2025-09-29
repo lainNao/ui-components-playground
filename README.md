@@ -87,6 +87,8 @@
   - viewer-midi : MIDI ビューワー
   - viewer-epub : EPUB ビューワー
   - panel-movable : VSCode のように移動可能なパネル
+  - sync-crdt : CRDT で複数人リアルタイム同時編集
+  - sync-ot : OT で複数人リアルタイム同時
 - **combination : 組み合わせ**
   - editor-rich-text : リッチテキストエディター
   - editor-video : 動画エディター
