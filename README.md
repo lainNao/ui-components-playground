@@ -89,6 +89,10 @@
   - panel-movable : VSCode のように移動可能なパネル
   - sync-crdt : CRDT で複数人リアルタイム同時編集
   - sync-ot : OT で複数人リアルタイム同時
+  - shape-snapping : 図形のスナッピング（ex.線を引く時に、近くの図形に吸着する挙動）
+  - export-pdf : PDF エクスポート
+  - export-office : Office ファイル（Word、Excel、PowerPoint）エクスポート
+  - micro-frontend : マイクロフロントエンド
 - **combination : 組み合わせ**
   - editor-rich-text : リッチテキストエディター
   - editor-video : 動画エディター
@@ -100,3 +104,14 @@
   - map-google: 地図（Google Map の超簡易版）
   - map-mind : マインドマップ
   - realtime-sync-gantt : 複数人でリアルタイム同時編集できるガントチャート
+
+## MEMO
+
+- ついでにフロントエンドの少し面倒〜かなり面倒な要件パターン全集を網羅できたら嬉しい。その時は UI のみでないのでリポジトリ名を変更する
+  - 例
+    - vite プラグイン
+    - webpack/rspack プラグイン
+    - nextjs のニッチな機能の利用
+    - react のニッチな機能の利用
+    - nodejs のニッチな機能の利用
+    - devtools のニッチな機能の利用
